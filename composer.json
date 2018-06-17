@@ -13,7 +13,8 @@
         }
     ],
     "require": {
-        "php": ">=7.2"
+        "php": ">=7.2",
+        "ext-sodium": "*"
     },
     "require-dev": {
         "00f100/phpdbug": "*",
