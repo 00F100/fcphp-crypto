@@ -2,8 +2,9 @@ language: php
 
 php:
     - 7.2
-    
+
 install:
+  - ./travis-install-libsodium.sh
   - pecl install libsodium
   - echo "extension=sodium.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini
 

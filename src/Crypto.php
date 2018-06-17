@@ -70,7 +70,7 @@ namespace FcPhp\Crypto
 
 		public function generateNonce() :string
 		{
-			return random_bytes(24);
+			return random_bytes(SODIUM_CRYPTO_BOX_NONCEBYTES);
 		}
 
 		/**
@@ -80,7 +80,7 @@ namespace FcPhp\Crypto
 		 */
 		public static function getNonce() :string
 		{
-			return base64_encode(random_bytes(24));
+			return base64_encode(random_bytes(SODIUM_CRYPTO_BOX_NONCEBYTES));
 		}
 
 		/**
