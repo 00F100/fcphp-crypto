@@ -2,7 +2,9 @@
 
 Package to crypto contents using [Sodium PHP Cryptography Extensions](http://php.net/manual/en/intro.sodium.php)
 
-[![Build Status](https://travis-ci.org/00F100/fcphp-crypto.svg?branch=master)](https://travis-ci.org/00F100/fcphp-crypto) [![codecov](https://codecov.io/gh/00F100/fcphp-crypto/branch/master/graph/badge.svg)](https://codecov.io/gh/00F100/fcphp-crypto) [![Total Downloads](https://poser.pugx.org/00F100/fcphp-crypto/downloads)](https://packagist.org/packages/00F100/fcphp-crypto)
+[![Build Status](https://travis-ci.org/00F100/fcphp-crypto.svg?branch=master)](https://travis-ci.org/00F100/fcphp-crypto) [![codecov](https://codecov.io/gh/00F100/fcphp-crypto/branch/master/graph/badge.svg)](https://codecov.io/gh/00F100/fcphp-crypto)
+
+[![PHP Version](https://img.shields.io/packagist/php-v/00f100/fcphp-crypto.svg)](https://packagist.org/packages/00F100/fcphp-crypto) [![Packagist Version](https://img.shields.io/packagist/v/00f100/fcphp-crypto.svg)](https://packagist.org/packages/00F100/fcphp-crypto) [![Total Downloads](https://poser.pugx.org/00F100/fcphp-crypto/downloads)](https://packagist.org/packages/00F100/fcphp-crypto)
 
 
 ## How to install
