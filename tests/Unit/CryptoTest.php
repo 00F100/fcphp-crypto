@@ -27,4 +27,9 @@ class CryptoTest extends TestCase
 	{
 		$this->assertTrue(!empty(Crypto::getNonce()));
 	}
+
+	public function testGetKey()
+	{
+		$this->assertTrue(!empty(Crypto::getKey()));
+	}
 }
