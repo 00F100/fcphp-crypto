@@ -63,6 +63,16 @@ namespace FcPhp\Crypto
 		}
 
 		/**
+		 * Method to generate new key
+		 *
+		 * @return string
+		 */
+		public static function getKey() :string
+		{
+			return base64_encode(sodium_crypto_box_keypair());
+		}
+
+		/**
 		 * Method to generate new nonce
 		 *
 		 * @return string
