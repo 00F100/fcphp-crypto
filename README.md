@@ -17,9 +17,9 @@ $ composer require 00f100/fcphp-crypto
 or add in composer.json
 ```json
 {
-	"require": {
-		"00f100/fcphp-crypto": "*"
-	}
+    "require": {
+        "00f100/fcphp-crypto": "*"
+    }
 }
 ```
 
